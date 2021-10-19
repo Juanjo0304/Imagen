@@ -1,0 +1,87 @@
+body{
+	background:url(../Imagenes/imagen_fondo.jpg);
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	color:white;
+}
+
+h1{
+	font-family:"Candara";
+	font-size:60px;
+	font-weight:bold;
+	text-align:center;
+	width:100%;	
+}
+
+h2{
+	font-family:"Candara";
+	font-size:30px;
+	font-weight:bold;
+    text-align:center;
+}
+
+p{
+	width:700px;
+	font-family:"Candara";
+	font-size:35px;
+	font-weight:bold;
+	text-align:left;
+	color:#000;
+	background:#AED6F1;
+	background-position:center;
+	border-radius:10px;
+	margin:10px;	
+	padding:5px;
+}
+
+div{
+	font-family:"arial";
+	font-size:25px;
+	font-weight:bold;
+	width:300px;
+	margin:10px;
+	background:none;
+	float:left;
+}
+
+.cat{
+	background:#AED6F1;
+	color:#D0D3D4;
+	position:relative;
+	top:0;
+	bottom:0;
+	right:0;
+	left:250px;
+	border-radius:15px;
+}
+
+.who{
+	background:#AED6F1;
+	color:#D0D3D4;
+	position:relative;
+	top:0;
+	bottom:0;
+	right:0;
+	left:500px;
+	border-radius:15px;
+}
+
+a{
+	text-decoration:none;
+	color:white;
+	background:none;
+}
+
+.cat li ul{
+	display:none;
+}
+
+.cat li:hover>ul{
+	display:block;
+}
+
+
+a:hover{
+	text-decoration:underline;
+	background:#434343;
+}
